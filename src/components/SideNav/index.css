@@ -1,0 +1,56 @@
+.side-nav-container {
+  width: 20vw;
+  background-color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.dark-nav {
+  background-color: #313131;
+}
+@media (max-width: 769px) {
+  .side-nav-container {
+    display: none;
+  }
+}
+.icon {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.nav-tab-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.nav-name {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+.contact-container {
+  padding: 15px;
+}
+.contact {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 15px;
+  color: #1e293b;
+}
+.media-container {
+  display: flex;
+  align-items: center;
+}
+.media-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.dark-contact {
+  color: #ffffff;
+}

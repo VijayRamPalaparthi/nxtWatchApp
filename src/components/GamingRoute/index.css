@@ -1,0 +1,56 @@
+.gaming-list-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 85%;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.gaming-link-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.gaming-image {
+  width: 250px;
+  border-radius: 10px;
+}
+.gaming-heading {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #181818;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.dark-gaming-heading {
+  color: #ffffff;
+}
+.about-gaming-thumbnail {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #212121;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.dark-gaming-thumbnail {
+  color: #ffffff;
+}
+.game-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #cbd5e1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+.dark-game {
+  background-color: #181818;
+}

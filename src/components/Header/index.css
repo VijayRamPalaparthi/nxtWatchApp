@@ -1,0 +1,96 @@
+.header-container {
+  background-color: white;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.dark-header-mode {
+  background-color: #313131;
+}
+.logo-image {
+  width: 130px;
+  height: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+.mode {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.profile-photo {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logout-button {
+  background-color: white;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #4f46e5;
+  font-size: 15px;
+  border: 2px solid #4f46e5;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+}
+.dark-logout {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.popup-container {
+  background-color: #313131;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.popup-desc {
+  color: white;
+  font-family: 'roboto';
+  text-align: center;
+}
+.popup-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+@media (max-width: 768px) {
+  .logo-image {
+    width: 100px;
+    height: 25px;
+  }
+  .profile-photo {
+    display: none;
+  }
+  .header {
+    width: 120px;
+  }
+  .logout-button {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .logout-icon {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
